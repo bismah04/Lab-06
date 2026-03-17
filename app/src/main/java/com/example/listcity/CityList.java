@@ -40,9 +40,9 @@ public class CityList {
      * @return
      * Return true if the city exists, false otherwise
      */
-    public boolean hasCity(City city) {
-        return cities.contains(city);
-    }
+//    public boolean hasCity(City city) {
+//        return cities.contains(city);
+//    }
 
     /**
      * This deletes a city from the list if it exists
