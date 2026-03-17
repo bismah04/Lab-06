@@ -52,12 +52,12 @@ public class CityList {
      * @throws IllegalArgumentException
      * If the city is not in the list
      */
-//    public void delete(City city) {
-//        if (!cities.contains(city)) {
-//            throw new IllegalArgumentException("City not found in list");
-//        }
-//        cities.remove(city);
-//    }
+    public void delete(City city) {
+        if (!cities.contains(city)) {
+            throw new IllegalArgumentException("City not found in list");
+        }
+        cities.remove(city);
+    }
 
     /**
      * This returns the count of cities in the list
