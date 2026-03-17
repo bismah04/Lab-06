@@ -52,7 +52,7 @@ public class CityListTest {
     public void testHasCity() {
         CityList cityList = mockCityList();
         City city = mockCity();
-        assertTrue(cityList.hasCity(city));
+        assertTrue(cityList.hasCity(city)); // change for red
         City cityNotPresent = new City("Toronto", "Ontario");
         assertFalse(cityList.hasCity(cityNotPresent));
     }

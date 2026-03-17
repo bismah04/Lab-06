@@ -40,6 +40,7 @@ public class CityList {
      * @return
      * Return true if the city exists, false otherwise
      */
+    // change for red
 //    public boolean hasCity(City city) {
 //        return cities.contains(city);
 //    }
